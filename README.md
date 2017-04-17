@@ -9,7 +9,7 @@ Currently implemented:
 
 If you want to use any other feature, add an issue or submit a PR, thanks :)
 
-The code I am not affiliated with Garmin in any way whatsoever.
+I am not affiliated with Garmin in any way whatsoever.
 
-#License
+# License
 Licensed under the MIT license
