@@ -2,8 +2,15 @@
 name = "lidar_lite_v3"
 version = "0.1.0"
 authors = ["Marek Miettinen <marek.miettinen@gmail.com>"]
+description = "Garmin Lidar Lite v3"
+license = "MIT"
+repository = "https://github.com/marikka/lidar_lite_v3_rs"
+homepage = "https://github.com/marikka/lidar_lite_v3_rs"
+documentation = "https://github.com/marikka/lidar_lite_v3_rs"
 
 [dependencies]
-i2cdev = "0.3.1"
 byteorder = "1.0.0"
 bitflags = "0.8.2"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+i2cdev = "0.3.1"
