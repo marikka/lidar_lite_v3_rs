@@ -1,0 +1,9 @@
+[package]
+name = "lidar_lite_v3"
+version = "0.1.0"
+authors = ["Marek Miettinen <marek.miettinen@gmail.com>"]
+
+[dependencies]
+i2cdev = "0.3.1"
+byteorder = "1.0.0"
+bitflags = "0.8.2"
